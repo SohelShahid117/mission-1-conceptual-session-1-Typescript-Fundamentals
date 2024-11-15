@@ -52,3 +52,9 @@ function multifly(num1:number,num2:number):number{
 // const multiplyResult = multifly(4,5);
 const multiplyResult = multifly(41,5);
 console.log("multiplication result is : "+multiplyResult)
+
+const sum=(a:number,b:number):number=>{
+    return a+b;
+}
+const sumResult = sum(7,8);
+console.log(sumResult)
