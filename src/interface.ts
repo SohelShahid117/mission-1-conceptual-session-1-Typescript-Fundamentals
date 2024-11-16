@@ -1,4 +1,6 @@
 {
+    //interface
+//interface use kora hoi Object Oriented Programming er khetre r type use kora hoi functional programming er khetre
 
  //type
   type PersonType = {
@@ -18,19 +20,20 @@
   };
 
   //object teke destructuring korle {} bracket r array teke hole [] bracket use hobe
-//   const {name:string,salary:number} = Person;
+  //  const {name:string,salary:number} = Person;
   const {name,salary} = Person;
   console.log(name)
   console.log(salary)
 
   //interface
   interface IPerson {
-    name: string;
+    readonly name: string;
     age: number;
     address: string;
     isProgrammer: boolean;
     // salary: number;
   }
+
   interface IPerson{
     salary: number;
   }
@@ -42,9 +45,11 @@
     isProgrammer: false,
     salary: 50000
   }
+//   Person2.name = "shamim"--->due to given readonly we can't change the name
+//readonly deyar mane holo amra only read korte parbo but write korte parbona
+Person2.age=45;
   console.log(Person2)
 
-  //part-3- 10 min done
 
 
 
