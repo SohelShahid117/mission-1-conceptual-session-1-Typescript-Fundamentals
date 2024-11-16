@@ -27,6 +27,7 @@ console.log(info2);
 //15 min done
 
 
+//type alias:aikhane ami sobgolo propertyr pashe j type bosalam takei bola hoi type alias
 type PersonType = {
     name:string; 
     age: number | string;
